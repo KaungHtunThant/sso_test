@@ -10,7 +10,7 @@ ini_set("display_errors", "on");  //Remove from production version
 $client_id = "b0b613c4-b156-437a-9f04-fd902e34f976";  //Application (client) ID
 $ad_tenant = "c95d9b09-eaad-48c3-b7f3-e07148c64c8a";  //Azure Active Directory Tenant ID, with Multitenant apps you can use "common" as Tenant ID, but using specific endpoint is recommended when possible
 $client_secret = "c3038874-14e0-48f7-9187-89d0afc97cb7";  //Client Secret, remember that this expires someday unless you haven't set it not to do so
-$redirect_uri = "http://localhost/sso/redir.php";  //This needs to match 100% what is set in Azure
+$redirect_uri = "https://team-1.kbtc.edu.mm";  //This needs to match 100% what is set in Azure
 $error_email = "kaunghtunthant@gmail.com";  //If your php.ini doesn't contain sendmail_from, use: ini_set("sendmail_from", "user@example.com");
 
 function errorhandler($input, $email)

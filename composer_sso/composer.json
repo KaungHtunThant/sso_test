@@ -1,0 +1,8 @@
+{
+    "name": "kht/composer_sso",
+    "require": {
+        "microsoft/microsoft-graph": "^1.73",
+        "vlucas/phpdotenv": "^5.4",
+        "curl/curl": "^1.1"
+    }
+}
